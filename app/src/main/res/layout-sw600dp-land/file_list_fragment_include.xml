@@ -35,6 +35,7 @@
                     android:background="?colorSurface" />
 
                 <include layout="@layout/file_list_fragment_content_include" />
+
             </me.zhanghai.android.files.ui.PersistentDrawerLayout>
         </LinearLayout>
 

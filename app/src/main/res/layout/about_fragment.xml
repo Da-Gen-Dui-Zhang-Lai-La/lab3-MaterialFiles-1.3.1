@@ -81,6 +81,7 @@
                                 android:maxLines="1"
                                 android:text="@string/app_name"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
                         </LinearLayout>
 
                         <me.zhanghai.android.foregroundcompat.ForegroundLinearLayout
@@ -242,6 +243,14 @@
                                 android:text="@string/about_author_title"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                                 android:textColor="?android:textColorSecondary" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#E91E63"
+                                android:text="Zjr191220158" />
                         </LinearLayout>
 
                         <me.zhanghai.android.foregroundcompat.ForegroundLinearLayout
