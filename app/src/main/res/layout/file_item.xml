@@ -27,8 +27,8 @@
 
         <me.zhanghai.android.files.ui.DisabledAlphaImageView
             android:id="@+id/iconImage"
-            android:layout_width="@dimen/icon_size"
-            android:layout_height="@dimen/icon_size"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:duplicateParentState="true"
             android:scaleType="centerCrop" />
@@ -54,6 +54,7 @@
             android:layout_gravity="end|bottom"
             android:duplicateParentState="true"
             android:src="@drawable/checkable_badge_18dp" />
+
     </FrameLayout>
 
     <LinearLayout
@@ -82,6 +83,15 @@
             android:maxLines="1"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E91E63"
+            android:text="Zjr191220158" />
+
     </LinearLayout>
 
     <!--
@@ -100,4 +110,5 @@
         android:foreground="@drawable/selectable_item_background_oval"
         android:src="@drawable/more_vertical_icon_white_24dp"
         app:tint="?colorControlNormal" />
+
 </me.zhanghai.android.files.ui.CheckableForegroundLinearLayout>
